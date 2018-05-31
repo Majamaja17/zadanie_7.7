@@ -1,0 +1,66 @@
+@import url("reset");
+
+@import url("../layout/navigation");
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/sidebar';
+@import 'layout/forms';
+@import 'layout/team';
+@import 'layout/partners';
+@import 'layout/contact';
+@import 'layout/blog';
+@import 'layout/gallery';
+
+@import 'components/buttons';
+@import 'components/media';
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+	box-sizing: border-box;
+}
+
+.row::before,
+.row::after {
+	content: "";
+	display: table;
+	clear: both;
+ }
+ 
+body {
+	font-family: "Open Sans", sans-serif;
+
+}
+
+.container {
+		width: 100%;
+		margin: 0 auto;
+		max-width: 900px;
+}
+
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+}
+
+h2,
+h4,
+h5,
+h6 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 30px;
+	text-transform: uppercase;
+}
+
+.services_header_inner,
+.portfolio_header_inner,
+.blog_header_inner,
+.ourTeam_header_inner {
+	color: gray;
+	padding-bottom: 25px;
+	text-align: center;
+}
+

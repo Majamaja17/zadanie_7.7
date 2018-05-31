@@ -1,0 +1,29 @@
+.ourTeam {
+	text-align: center;
+	line-height: 30px;
+	background-color: #F1F1F1;
+}
+
+.ourTeam_photo {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	object-fit: cover;
+	border-style: solid;
+	border-color: white;
+	border-width: 5px;
+}
+
+h6 {
+	margin: 0;
+}
+
+.our_p1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.ourTeam_last_p {
+	padding-bottom: 25px;
+	font-weight: bold;
+}

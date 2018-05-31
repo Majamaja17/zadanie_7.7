@@ -1,0 +1,51 @@
+/* Contac*/
+.contact_button {
+	color: white;
+	background-color: #fed136;
+	border-radius: 5%;
+	padding: 10px;
+}
+
+/*Team*/
+.ourTeam button {
+	margin-right: 5px;
+	background-color: white;
+	border-color: black;
+	border-style: solid;
+	border-width: 2px;
+	margin-bottom: 25px;
+}
+
+.ourTeam .fa {
+	color: black;
+}
+
+/*Footer*/
+.icon-btn {
+	width: 40px;
+	height: 40px;
+	border: 0;
+	background-color: black;
+	color: white;
+	border-radius: 50%;
+	float: left;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+.twitter {
+	margin-left: 90px;
+}
+
+}
+.icon-btn:hover {
+	-webkit-transform: scale(1.10);
+	-ms-transform: scale(1.10);
+	transform: scale(1.10);
+	background-color: #4099FF;
+	color: #FFF;
+}
+
+footer button {
+	margin-right: 5px;
+}
